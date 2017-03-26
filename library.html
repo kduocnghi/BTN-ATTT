@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Online Library</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dropdown-style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12" id="top-bar">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><strong id="logo">Online Library</strong></a>
+					</div>
+				<div class="collapse navbar-collapse nav-menu" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right nav-menu">
+						<li id="discover-dropdown" class="dropdown">
+							<a href="#" data-toggle="dropdown">Thư viện <span class="caret"></span></a>
+							<ul id="dropdown-div" class="dropdown-menu">
+								<li class="col-md-3">
+									<ul>
+										<li class="dropdown-header">Kỹ năng</li>
+										<li><a href="#">Kỹ năng sống</a></li>
+										<li><a href="#">Kỹ năng làm việc</a></li>
+										<li><a href="#">Kỹ năng giao tiếp</a></li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<li class="dropdown-header">Kỹ năng</li>
+										<li><a href="#">Kỹ năng sống</a></li>
+										<li><a href="#">Kỹ năng làm việc</a></li>
+										<li><a href="#">Kỹ năng giao tiếp</a></li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<li class="dropdown-header">Văn học</li>
+										<li><a href="#">Văn học Việt Nam</a></li>
+										<li><a href="#">Văn học nước ngoài</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">Tủ sách</a></li>
+						<li><a href="#">Sách hay nên đọc</a></li>		
+					</ul>
+				</div>	
+			</nav>
+		</div>
+		<div class="col-md-12">
+			<form class="navbar-form navbar-left col-md-6" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control  search-form" placeholder="Tìm kiếm ..." alt="search">
+				</div> 
+				<button type="submit" class="btn btn-default">Tìm kiếm</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right" id="login">
+			  <li><a href="login_signup.html">Đăng nhập</a></li>	
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="col-md-9 col-center">Sách mới thêm</div>
+			<div class="item active">
+				<div class="col-md-9 col-center slide-show">
+					<div data-u="slides" class="row list_slide">
+						<img class="img-book col-md-2 col-sm-4" id="book-slide" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/14555.jpg?v=1&w=600&h=1000" alt="">
+						<div class="col-md-9 col-sm-8 info">
+							<h4 class="text-left">Những người tạo ra hiện thực - Tập 1</h4>
+							<h5 class="text-left">Tác giả: Olivier Lockert</h5>
+							<h5 class="text-left">Thể loại: Truyện dài - Tiểu thuyết, Văn học</h5>
+							<p>Thôi miên nhân văn là một nhánh tiếp cận mới mẻ và tràn đầy ánh sáng của ngành Thôi miên có lịch sử lâu đời. Với hướng trị liệu hướng đồng thời vào bên trong và ra ngoài, vừa “ở đó” lại vừa “ở đây”, cá thể kết nối với toàn thể, thôi miên nhân văn kết nối với Ma trận, với Toàn thức, với Core Gem, thôi miên nhân văn luôn tỏa ra sức cuốn hút huyền bí không những trong giới nghiên cứu mà còn có tác động trên diện rộng.<br></p>
+							<button type="button" class="btn btn-sm btn-info">
+								Xem
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="col-md-9 col-center slide-show">
+					<div data-u="slides" class="row list_slide">
+						<img class="img-book col-md-2 col-sm-4" id="book-slide" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15437.jpg?v=1&w=600&h=1000" alt="">
+						<div class="col-md-9 col-sm-8 info">
+							<h4 class="text-left">Những người tạo ra hiện thực - Tập 2</h4>
+							<h5 class="text-left">Tác giả: Olivier Lockert</h5>
+							<h5 class="text-left">Thể loại: Truyện dài - Tiểu thuyết, Văn học</h5>
+							<p>Thôi miên nhân văn là một nhánh tiếp cận mới mẻ và tràn đầy ánh sáng của ngành Thôi miên có lịch sử lâu đời. Với hướng trị liệu hướng đồng thời vào bên trong và ra ngoài, vừa “ở đó” lại vừa “ở đây”, cá thể kết nối với toàn thể, thôi miên nhân văn kết nối với Ma trận, với Toàn thức, với Core Gem, thôi miên nhân văn luôn tỏa ra sức cuốn hút huyền bí không những trong giới nghiên cứu mà còn có tác động trên diện rộng.<br></p>
+							<button type="button" class="btn btn-sm btn-info">
+								Xem
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="col-md-9 col-center slide-show">
+					<div data-u="slides" class="row list_slide">
+						<img class="img-book col-md-2 col-sm-4" id="book-slide" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15437.jpg?v=1&w=600&h=1000" alt="">
+						<div class="col-md-9 col-sm-8 info">
+							<h4 class="text-left">Những người tạo ra hiện thực - Tập 2</h4>
+							<h5 class="text-left">Tác giả: Olivier Lockert</h5>
+							<h5 class="text-left">Thể loại: Truyện dài - Tiểu thuyết, Văn học</h5>
+							<p>Thôi miên nhân văn là một nhánh tiếp cận mới mẻ và tràn đầy ánh sáng của ngành <br></p>
+							<button type="button" class="btn btn-sm btn-info">
+								Xem
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="col-md-9 col-center slide-show">
+					<div data-u="slides" class="row list_slide">
+						<img class="img-book col-md-2 col-sm-4" id="book-slide" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15630.jpg?v=1&w=600&h=1000" alt="">
+			  			<div class="col-md-9 col-sm-8 info">
+							<h4 class="text-left">Duyên kiếp trước nợ kiếp này</h4>
+							<h5 class="text-left">Tác giả: Lan Tư Tư</h5>
+							<h5 class="text-left">Thể loại: Ngôn tình, Hiện đại</h5>
+							<h5 class="text-left">Nhà xuất bản: NXB Thanh Niên</h5>
+							<p>Phật dạy rằng đời người là nằm trong dòng chảy luân hồi, kiếp này nối tiếp kiếp khác, con người gặp nhau là bởi chữ Duyên, yêu nhau là bởi chữ Nợ từ nhiều kiếp trước. Người ta đau khổ vì yêu mà khô...<br></p>
+							<button type="button" class="btn btn-sm btn-info">
+								Xem
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			 <!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-sm-12">
+		  <h2 class="title-dm">Kỹ năng:</h2>
+		  <a class="view-all" href="#">Xem tất cả >></a>
+		  <div class="row">
+			  <div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15437.jpg?v=1&w=600&h=1000" alt="">
+			  		<div class="book-info">
+						<h4 class="text-center">Những người tạo ra hiện thực - Tập 2</h4>
+						<h5 class="text-center">Olivier Lockert</h5>
+				  	</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/195811.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Trắc nghiệm sinh học</h4>
+						<h5 class="text-center">NXB giáo dục</h5>
+					</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935205600453.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Định giá đầu tư</h4>
+						<h5 class="text-center">Aswath Damodaran</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/209236.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Ý chí cao cả</h4>
+						<h5 class="text-center">Trần Quan Sơn</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+			  		</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+			</div>
+			</div>
+		</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="title-dm">Văn học:</h2>
+		  	<a class="view-all" href="#">Xem tất cả >></a>
+			<div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" class="img-book" src="http://sáchkỹnăngmềm.vn/wp-content/uploads/2015/09/156412_p29988m30159.jpg" alt="">
+					<div class="book-info">
+						<h4 class="text-center">Đắc nhân tâm</h4>
+						<h5 class="text-center">Thể loại: kỹ năng sống</h5>
+					</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" class="img-book" src="http://tapchisonghuong.com.vn/userfiles/images/gs53-khatnang-trthang.jpg" alt="">
+			  		<div class="book-info">
+						<h4 class="text-center">Khát nắng mùa đông</h4>
+						<h5 class="text-center">Trường Thắng</h5>
+				  	</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/213168.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Tập trung vào điều tốt</h4>
+						<h5 class="text-center">Mike Robbins</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://2.bp.blogspot.com/-hwigWaRmLSI/Vf-fK9wZ5aI/AAAAAAAABfg/BV2dTgi76Bo/s1600/Tr%25C3%25AD%2BTu%25E1%25BB%2587%2BGi%25E1%25BA%25A3%2BT%25E1%25BA%25A1o%2BInternet%2B%25C4%2591%25C3%25A3%2Bl%25C3%25A0m%2Bg%25C3%25AC%2Bch%25C3%25BAng%2Bta%2B-%2BNicholas%2BCarr.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Trí tuệ giả tạo</h4>
+						<h5 class="text-center">Nicholas Carr</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="title-dm">Truyện đọc:</h2>
+		  	<a class="view-all" href="#">Xem tất cả >></a>
+			<div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" src="http://www.minhkhai.vn/hinhlon/196052.jpg" alt="">
+			  		<div class="book-info">
+				  		<h4 class="text-center">Người hùng trở lại</h4>
+				  		<h5 class="text-center">Harlan Coben</h5>
+				  	</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/205669.jpg">
+			  		<div class="book-info">
+				  		<h4 class="text-center">Cuốn theo chiều gió</h4>
+				  		<h5 class="text-center">Thể loại: Truyện</h5>
+					</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935205600453.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Định giá đầu tư</h4>
+						<h5 class="text-center">Thể loại: Kinh tế</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/204920.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Sự hiền hòa của sói</h4>
+						<h5 class="text-center">Stef Pennly</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="https://mpflorist.files.wordpress.com/2010/09/dtd_fw.jpg?w=240">
+					<div class="book-info">
+						<h4 class="text-center">Đường ta đi</h4>
+						<h5 class="text-center">Nguyễn Lê Minh</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">	
+		<div class="col-lg-12">
+		  <h2 class="title-dm">Khoa học - Giáo dục:</h2>
+		  <a class="view-all" href="#">Xem tất cả >></a>
+		  <div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15437.jpg?v=1&w=600&h=1000" alt="">
+			  		<div class="book-info">
+						<h4 class="text-center">Những người tạo ra hiện thực - Tập 2</h4>
+						<h5 class="text-center">Olivier Lockert</h5>
+				  	</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/195811.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Trắc nghiệm sinh học</h4>
+						<h5 class="text-center">NXB giáo dục</h5>
+					</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935205600453.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Định giá đầu tư</h4>
+						<h5 class="text-center">Aswath Damodaran</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/209236.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Ý chí cao cả</h4>
+						<h5 class="text-center">Trần Quan Sơn</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+			  		</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+		  <h2 class="title-dm">Kinh tế - Xã hội:</h2>
+		  <a class="view-all" href="#">Xem tất cả >></a>
+		  <div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15437.jpg?v=1&w=600&h=1000" alt="">
+			  		<div class="book-info">
+						<h4 class="text-center">Những người tạo ra hiện thực - Tập 2</h4>
+						<h5 class="text-center">Olivier Lockert</h5>
+				  	</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/195811.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Trắc nghiệm sinh học</h4>
+						<h5 class="text-center">NXB giáo dục</h5>
+					</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935205600453.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Định giá đầu tư</h4>
+						<h5 class="text-center">Aswath Damodaran</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/209236.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Ý chí cao cả</h4>
+						<h5 class="text-center">Trần Quan Sơn</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+			  		</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+		  <h2 class="title-dm">Tâm lý học:</h2>
+		  <a class="view-all" href="#">Xem tất cả >></a>
+		  <div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" src="https://static.waka.vn/view/v2/image/img.book/0/0/0/15437.jpg?v=1&w=600&h=1000" alt="">
+			  		<div class="book-info">
+						<h4 class="text-center">Những người tạo ra hiện thực - Tập 2</h4>
+						<h5 class="text-center">Olivier Lockert</h5>
+				  	</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/195811.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Trắc nghiệm sinh học</h4>
+						<h5 class="text-center">NXB giáo dục</h5>
+					</div>
+					<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935205600453.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Định giá đầu tư</h4>
+						<h5 class="text-center">Aswath Damodaran</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/209236.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Ý chí cao cả</h4>
+						<h5 class="text-center">Trần Quan Sơn</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+			  		</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 book-box">
+					<img class="img-book" alt="Bootstrap Image Preview" src="http://www.minhkhai.vn/hinhlon/8935073071096.jpg">
+					<div class="book-info">
+						<h4 class="text-center">Các loại cửa mỹ thuật</h4>
+						<h5 class="text-center">NXB mỹ thuật</h5>
+					</div>
+				  	<button type="button" class="btn btn-sm btn-ct">
+						Xem
+					</button>
+					<button type="button" class="btn btn-sm btn-ct">
+						Đọc sau
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h5 >Liên hệ:</h5>
+			<h6><a href="#">tuannguyenk60@gmail.com</a></h6>
+			<h6><a href="#">tienviet60@gmail.com</a></h6>
+			<h6><a href="#">tuannguyenk60@gmail.com</a></h6>
+			<h6><a href="#">tuannguyenk60@gmail.com</a></h6>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
