@@ -1,0 +1,123 @@
+.container-fluid {
+	max-width: 1200px;
+}
+html {
+	font-family: Times New Roman, Cambria, Hoefler Text, Liberation Serif, Times, serif;
+}
+
+/* header */
+.title-library {
+	font-size: 5em;
+	font: bold;
+}
+#logo {
+	font-family: time Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	margin: 5px 0.em;
+	font-size: 250%;
+	color: black;
+}
+	/*------------*/
+.search-form {
+}
+	/*------------*/
+#top-bar {
+	height: 4.5em;
+}
+.nav-menu {
+}
+.nav-menu ul li a{
+	margin: 0.3em 1em;
+	font-size: 1.5em;
+	font-family: time Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+#dropdown-div {
+	width: 45em;
+}
+.dropdown-header {
+	font-size: 1.5em;
+}
+#dropdown-div li ul li a {
+	font-size: 1em;
+}
+#login {
+	font-size: 1.2em;
+	margin: 0 2em;
+}
+/* end header */
+
+/* slide show */
+.col-center {
+	float: none;
+	margin: 0 auto;
+}
+.slide-show {
+	border: ridge;
+	border-color: black;
+	border-width: 1.5px;
+	border-radius: 5px; 
+}
+#book-slide {
+	margin: 1em 0;
+}
+/* end slide show */
+
+/* book */
+.book-box {
+	margin: 1em 0;
+	max-height: 25em;
+}
+.img-book {
+	width: 100%;
+	height: 100%;
+	max-width: 170px;
+	max-height: 245px;
+	align-items: center;
+}
+.img-book-view {
+	margin: 1em;
+	width: 100%;
+	height: 100%;
+	max-width: 260px;
+	max-height: 368px;
+}
+.btn-block {
+	margin: 0 1em;
+}
+.btn-ct{
+	width: 48%;
+	display: inline-block;
+}
+.book-info {
+	height: 5em;
+}
+.book-info h4, h5{
+    outline: none;
+    cursor: pointer;
+	overflow: hidden;
+}
+.book-info h4 {
+	max-height: 2.1em;
+}
+.book-info h5 {
+	max-height: 1.1em;
+}
+.btn-group {
+	margin: 0 1.5em;
+}
+.view-more {
+	padding: 0;
+}
+/* end book */
+
+.title-dm, .view-all {
+	display: inline-block;
+}
+.view-all {
+	float: right;
+	margin-top: 2.2em;
+}
+/* search */
+.search-follow, .search-follow li{
+	display: inline-block;
+	margin: 0 1em;
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+element.style {
+}
+@media (max-width: 991px)
+desktop-web.min…ss?v=2c4fb7d:1
+#header-container #header #discover-dropdown {
+    position: static;
+}
+
+desktop-web.min…ss?v=2c4fb7d:1
+#header-container #header>nav>ul>li.button-group {
+    position: relative;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+#header-container #header>nav>ul>li {
+    padding: 0;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+.collapsing, .dropdown {
+    position: relative;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul.list-inline
+desktop-web.min…ss?v=2c4fb7d:1
+.list-inline, .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from nav
+desktop-web.min…ss?v=2c4fb7d:1
+#header-container #header>nav {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+}
+Inherited from div#header
+desktop-web.min…ss?v=2c4fb7d:1
+#header-container #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    display: table;
+    width: 100%;
+    height: 54px;
+    padding: 0;
+    line-height: 54px;
+    color: #FFF;
+    background-color: #ff9912;
+    background-image: -webkit-linear-gradient(top,#ff9912 0,#ff8c00 100%);
+    background-image: -o-linear-gradient(top,#ff9912 0,#ff8c00 100%);
+    background-image: linear-gradient(to bottom,#ff9912 0,#ff8c00 100%);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+Inherited from body.touchDisabled.route-home.index
+desktop-web.min…ss?v=2c4fb7d:1
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555;
+    background-color: #f7f6f3;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+body, button, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+.h1, .h2, .h3, body, h1, h2, h3 {
+    font-weight: 400;
+}
+Inherited from html
+desktop-web.min…ss?v=2c4fb7d:1
+html {
+    font-size: 10px;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+desktop-web.min…ss?v=2c4fb7d:1
+.owl-carousel, .owl-carousel .owl-item, html {
+    -webkit-tap-highlight-color: transparent;
+}
+Pseudo ::before element
+desktop-web.min…ss?v=2c4fb7d:1
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+desktop-web.min…ss?v=2c4fb7d:1
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

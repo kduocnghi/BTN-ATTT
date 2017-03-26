@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title-story {
+	text-align: center;
+}
+.muc-luc{
+	margin-top: 0.5em;
+	font-size: 1.5em;
+}
+.conten-read {
+	padding: 1em 3em;
+}
