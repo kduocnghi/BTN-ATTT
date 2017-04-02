@@ -1,0 +1,27 @@
+Feature: User login on site
+	As an end user
+	I want to login to site
+	so that I can access the website
+	
+	Scenario: User login are correct
+	
+		Given I am on the  homepage
+		When I click on the "Đăng nhập" button
+		And I enter correct email or username and password or I login with Facebook account
+		And I Click on "Đăng nhập"
+		Then i should see homepage of "Library online" website
+		
+	Scenario: User login are inscorrect
+	
+		Given I am on the homepage
+		When I enter incorrect username or password
+		And I click on "Login"
+		Then I should see an error message "Tên đăng nhập hoặc mật khẩu sai"
+		
+	Scenario: Register on website
+		When I enter Email, Username, Password 
+		When Email or username is available 
+		Then I will be registered again
+		When Email or username doesn't exist 
+		Then I will login to website
+		

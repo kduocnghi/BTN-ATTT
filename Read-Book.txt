@@ -1,0 +1,12 @@
+ Feature: Read book
+ 
+   Scenario: Index Book
+        Given i am at the Online library
+	And I see a title in navigation bar named "Muc luc" to find the chapter i want to see	  
+	When I click this title then table of all chapter appear
+	And I click on one of chapter
+	Then I see the chapter i want to see
+   Scenario: Next Chapter
+        Given i am at the one of chapter in one book in Online library
+	And I see a button below the chapter of book named "next" or "back".
+	Then I see "next" or "previous" the chapter i want to see 
